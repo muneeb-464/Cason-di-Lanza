@@ -6,10 +6,10 @@ export default function MapSection() {
       <div className="wrap">
         <div className="map__grid">
           <div className="map__panel reveal" ref={useReveal()}>
-            <div className="divider-num">— 05 / Posizione</div>
-            <h2>Dove ci <span className="italics">troviamo.</span></h2>
+            <div className="divider-num">— 05 / Location</div>
+            <h2>Where to <span className="italics">find us.</span></h2>
             <p style={{ marginTop: 24, maxWidth: '42ch' }}>
-              Sulla Sella di Lanza, tra Paularo e Pontebba, a 1552 m di quota. Si arriva in auto, in moto, o — meglio — a piedi dai sentieri di Carnia.
+              On the Sella di Lanza pass, between Paularo and Pontebba, at 1552 m altitude. Reachable by car, motorbike, or — best of all — on foot along the Carnia trails.
             </p>
             <div className="address">
               Sella di Lanza<br />
@@ -23,7 +23,7 @@ export default function MapSection() {
             </div>
             <div style={{ marginTop: 36 }}>
               <a href="https://maps.google.com/?q=Cason+di+Lanza+Paularo" target="_blank" rel="noopener noreferrer" className="btn btn--outline">
-                Apri in mappe <span className="arrow">→</span>
+                Open in maps <span className="arrow">→</span>
               </a>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function MapSection() {
             <div className="compass">N ↑</div>
             <div className="marker-label">Cason di Lanza · 1552 m</div>
             <div className="pin"><span className="pulse" /></div>
-            <div className="alt-badge">Altitudine<strong>1552 m</strong></div>
+            <div className="alt-badge">Altitude<strong>1552 m</strong></div>
           </div>
         </div>
       </div>

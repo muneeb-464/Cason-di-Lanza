@@ -1,9 +1,9 @@
 export default function MarqueeSection() {
   const items = [
-    'Caseificio Artigianale',
-    'Cucina Tradizionale Carnica',
-    'Rifugio di Famiglia',
-    'Sentieri & Panorami',
+    'Artisan Dairy',
+    'Traditional Carnic Cuisine',
+    'Family Refuge',
+    'Trails & Panoramas',
   ]
 
   const repeated = [...items, ...items]

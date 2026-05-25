@@ -6,39 +6,39 @@ const services = [
   {
     id: 'gastronomy',
     num: '01',
-    tag: 'Gastronomia',
-    title: 'Cucina della\ntradizione carnica.',
-    lead: 'Sapori autentici a 1552 m.',
-    desc: 'Cjarsons fatti a mano, frico croccante, polenta sul fuoco e salumi delle nostre vallate. Ricette di famiglia tramandate di generazione in generazione, accompagnate dal vino di casa.',
-    details: ['Aperto Ven – Dom', 'Prenotazione consigliata', 'Cucina locale · stagionale'],
+    tag: 'Gastronomy',
+    title: 'Traditional\nCarnic cuisine.',
+    lead: 'Authentic flavours at 1552 m.',
+    desc: 'Hand-made cjarsons, crispy frico, polenta on the fire, and local cured meats. Family recipes passed down through generations, served with the house wine.',
+    details: ['Open Fri – Sun', 'Reservation recommended', 'Local · seasonal kitchen'],
     img: images.gastronomia,
-    imgAlt: 'Gastronomia al Cason di Lanza',
+    imgAlt: 'Gastronomy at Cason di Lanza',
     flip: false,
     bg: 'var(--cream)',
   },
   {
     id: 'dairy',
     num: '02',
-    tag: 'Caseificio',
-    title: 'Formaggi di malga\nstagionati in cantina.',
-    lead: 'Latte crudo dei pascoli di Lanza.',
-    desc: 'Mani artigiane, tempo e passione. Produciamo formaggio, burro, ricotta e caciotta fresca stagionati nella nostra cantina di legno — prodotti nati a 1552 m e venduti direttamente in malga.',
-    details: ['Vendita diretta in malga', 'Visita su prenotazione', 'Stagionatura artigianale'],
+    tag: 'Dairy',
+    title: 'Alpine cheeses\naged in the cellar.',
+    lead: 'Raw milk from the Lanza pastures.',
+    desc: 'Skilled hands, time, and passion. We produce cheese, butter, ricotta, and fresh caciotta aged in our wooden cellar — born at 1552 m and sold directly at the refuge.',
+    details: ['Direct sale at the refuge', 'Visit by appointment', 'Artisan ageing'],
     img: images.caseificio,
-    imgAlt: 'Caseificio Cason di Lanza',
+    imgAlt: 'Cason di Lanza dairy',
     flip: true,
     bg: 'var(--ink)',
   },
   {
     id: 'guesthouse',
     num: '03',
-    tag: 'Rifugio',
-    title: 'Camere mansardate\ntra i monti.',
-    lead: 'Il torrente è la vostra sveglia.',
-    desc: 'Camere private e dormitori in legno, lenzuola fresche e finestre aperte sui pascoli. Colazione abbondante con i nostri prodotti. Mezza pensione disponibile per soggiorni completi.',
-    details: ['Camere private & dormitori', 'Mezza pensione inclusa', 'Colazione con prodotti della malga'],
+    tag: 'Refuge',
+    title: 'Attic rooms\namong the mountains.',
+    lead: 'The stream is your alarm clock.',
+    desc: 'Private rooms and wooden dormitories, fresh linen, and windows open to the pastures. Generous breakfast with our own products. Half board available for full stays.',
+    details: ['Private rooms & dormitories', 'Half board included', 'Breakfast with refuge products'],
     img: images.rifugio,
-    imgAlt: 'Rifugio Cason di Lanza',
+    imgAlt: 'Cason di Lanza refuge',
     flip: false,
     bg: 'var(--cream-2)',
   },
@@ -109,7 +109,7 @@ function ServiceBlock({ num, tag, title, lead, desc, details, img, imgAlt, flip,
 
           <div className="avb__actions">
             <a href="/#contatti" className="btn btn--gold">
-              Prenota ora <span className="arrow">→</span>
+              Book now <span className="arrow">→</span>
             </a>
             {!dark && (
               <a href="/#contatti" className="btn btn--outline">
@@ -135,14 +135,14 @@ export default function Attivita() {
       <section className="av-title-section">
         <div className="av-title-inner">
           <div className="eyebrow"><span className="dot" /> Cason di Lanza · Carnia <span className="dot" /></div>
-          <h1 className="av-title">Attività</h1>
+          <h1 className="av-title">Activities</h1>
           <p className="av-title-sub">
-            Tre esperienze autentiche a 1552 m — gastronomia carnica, formaggi artigianali e ospitalità di famiglia.
+            Three authentic experiences at 1552 m — Carnic gastronomy, artisan cheeses, and family hospitality.
           </p>
           <div className="av-title-meta">
-            <span><em>01</em> Gastronomia</span>
-            <span><em>02</em> Caseificio</span>
-            <span><em>03</em> Rifugio</span>
+            <span><em>01</em> Gastronomy</span>
+            <span><em>02</em> Dairy</span>
+            <span><em>03</em> Refuge</span>
           </div>
         </div>
       </section>

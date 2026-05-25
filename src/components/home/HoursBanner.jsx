@@ -1,17 +1,20 @@
+import { useTranslation } from 'react-i18next'
 import { useReveal } from '../../hooks/useReveal'
 
 export default function HoursBanner() {
+  const { t } = useTranslation()
+
   return (
     <section className="hours">
       <div className="hours__inner reveal" ref={useReveal()}>
-        <div className="hours__label">Orari d'apertura · MMXXIV</div>
+        <div className="hours__label">{t('hours.label')}</div>
         <div className="hours__main">
-          <span className="gold">Chiuso a partire dal 28 settembre.</span>
+          <span className="gold">{t('hours.closed')}</span>
           <span className="divider" />
-          <span className="when">Venerdì — Domenica · 9:00 – 21:00 · Cucina su prenotazione</span>
+          <span className="when">{t('hours.when')}</span>
         </div>
         <a href="#contatti" className="btn btn--ghost-dark">
-          Prenota un tavolo <span className="arrow">→</span>
+          {t('hours.cta')} <span className="arrow">→</span>
         </a>
       </div>
     </section>

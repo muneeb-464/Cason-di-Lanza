@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "home": "Home",
+    "attivita": "Aktivitäten",
+    "reservations": "Reservierungen",
+    "prenota_camera": "Zimmer buchen",
+    "nuova_pagina": "Neue Seite",
+    "more": "Mehr",
+    "contatti": "Kontakt",
+    "piani": "Preise",
+    "esperienze": "Erlebnisse",
+    "prenota_ora": "Jetzt buchen"
+  },
+  "hero": {
+    "eyebrow": "Karnische Alpen · Friaul‑Julisch Venetien",
+    "sub": "„Wo Gastfreundschaft zuhause ist.“ Eine Familienhütte zwischen den Almen, auf 1552 Metern über dem Meeresspiegel.",
+    "scopri": "Mehr entdecken",
+    "contattaci": "Kontakt aufnehmen",
+    "quota_label": "Höhe",
+    "stagione_label": "Saison",
+    "stagione_val": "Freitag – Sonntag",
+    "stagione_note": "9:00 – 21:00 · geschlossen ab 28. Sept."
+  },
+  "services": {
+    "eyebrow": "01 / Erlebnisse",
+    "title": "Drei Wege, den Berg zu erleben.",
+    "desc": "Ein Haus, drei Traditionen: Milch von den Almen, Familienküche und Nächte unterm Holzdach.",
+    "caseificio_title": "Der authentische Geschmack des Berges.",
+    "caseificio_desc": "Almkäse, in unserem Holzkeller gereift.",
+    "caseificio_cta": "Käserei besuchen",
+    "gastro_title": "Traditionelle karnische Küche.",
+    "gastro_desc": "Cjarsons, Frico, Polenta am Feuer, lokale Wurstwaren.",
+    "gastro_cta": "Menü ansehen",
+    "rifugio_title": "Wo Einfachheit auf Komfort trifft.",
+    "rifugio_desc": "Mansardenzimmer aus Holz, frische Bettwäsche, offene Fenster zu den Bergen.",
+    "rifugio_cta": "Eine Nacht buchen"
+  },
+  "about": {
+    "eyebrow": "02 / Unsere Geschichte",
+    "title": "Eine Berghütte, die sich wie zuhause anfühlt.",
+    "lead": "Seit drei Generationen hüten wir diese Alm in den Karnischen Alpen.",
+    "body": "Cason di Lanza begann als Almweide und wurde im Laufe der Jahrzehnte zu einer Familienhütte.",
+    "sign": "Familie Cason",
+    "stat_quota": "Meter Höhe",
+    "stat_gen": "Generationen",
+    "stat_rec": "Bewertungen ★"
+  },
+  "hours": {
+    "label": "Öffnungszeiten · MMXXIV",
+    "closed": "Geschlossen ab 28. September.",
+    "when": "Freitag — Sonntag · 9:00 – 21:00 · Küche auf Reservierung",
+    "cta": "Tisch reservieren"
+  },
+  "contact": {
+    "eyebrow": "04 / Kontakt",
+    "title": "Schreiben Sie uns, wir erwarten Sie in den Bergen.",
+    "desc": "Um einen Tisch, ein Zimmer zu reservieren oder einfach Informationen zu erfragen.",
+    "send": "Nachricht senden",
+    "reply": "Antwort innerhalb 24h"
+  },
+  "newsletter": {
+    "eyebrow": "Brief aus der Hütte",
+    "title": "Abonnieren Sie exklusive Updates.",
+    "desc": "Eine E-Mail alle zwei Monate, von der Familie geschrieben. Keine Werbung, kein Lärm.",
+    "btn": "Beitreten",
+    "placeholder": "ihre@email.de"
+  },
+  "footer": {
+    "tagline": "Familienhütte, handwerkliche Käserei und karnische Küche in den Karnischen Alpen.",
+    "esperienze": "Erlebnisse",
+    "contatti": "Kontakt",
+    "seguici": "Folgen Sie uns"
+  }
+}

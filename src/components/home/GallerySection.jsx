@@ -2,12 +2,12 @@ import { useReveal } from '../../hooks/useReveal'
 import { images as imgs } from '../../assets'
 
 const galleryItems = [
-  { cls: 'gi--a', src: imgs.hero,        alt: 'Paesaggi',    cap: 'Paesaggi · Sella di Lanza' },
-  { cls: 'gi--b', src: imgs.gastronomia, alt: 'Gastronomia', cap: 'Gastronomia · Tavola estiva' },
-  { cls: 'gi--c', src: imgs.caseificio,  alt: 'Caseificio',  cap: 'Caseificio · Stagionatura' },
-  { cls: 'gi--d', src: imgs.rifugio,     alt: 'Camere',      cap: 'Rifugio · Camere' },
-  { cls: 'gi--e', src: imgs.family,      alt: 'Famiglia',    cap: 'Famiglia · Inaugurazione' },
-  { cls: 'gi--f', src: imgs.contact,     alt: 'Mercato',     cap: 'Mercato · Prodotti caseari' },
+  { cls: 'gi--a', src: imgs.hero,        alt: 'Landscape',   cap: 'Landscape · Sella di Lanza' },
+  { cls: 'gi--b', src: imgs.gastronomia, alt: 'Gastronomy',  cap: 'Gastronomy · Summer table' },
+  { cls: 'gi--c', src: imgs.caseificio,  alt: 'Dairy',       cap: 'Dairy · Ageing cellar' },
+  { cls: 'gi--d', src: imgs.rifugio,     alt: 'Rooms',       cap: 'Refuge · Rooms' },
+  { cls: 'gi--e', src: imgs.family,      alt: 'Family',      cap: 'Family · Opening day' },
+  { cls: 'gi--f', src: imgs.contact,     alt: 'Market',      cap: 'Market · Dairy products' },
 ]
 
 export default function GallerySection() {
@@ -16,11 +16,11 @@ export default function GallerySection() {
       <div className="wrap">
         <div className="section-head reveal" ref={useReveal()}>
           <div className="left">
-            <div className="divider-num">— 03 / Momenti</div>
-            <h2>Momenti al <span className="italics">rifugio.</span></h2>
+            <div className="divider-num">— 03 / Moments</div>
+            <h2>Moments at the <span className="italics">refuge.</span></h2>
           </div>
           <div className="right">
-            <p>Le immagini parlano della malga meglio delle parole. Tavolate al tramonto, forme di formaggio in stagionatura, e la luce alpina di luglio.</p>
+            <p>Images speak of the refuge better than words. Sunset dinners, wheels of cheese ageing in the cellar, and the alpine light of July.</p>
           </div>
         </div>
 

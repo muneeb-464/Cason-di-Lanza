@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "home": "Home",
+    "attivita": "Activities",
+    "reservations": "Reservations",
+    "prenota_camera": "Book a room",
+    "nuova_pagina": "New page",
+    "more": "More",
+    "contatti": "Contact",
+    "piani": "Plans & pricing",
+    "esperienze": "Experiences",
+    "prenota_ora": "Book now"
+  },
+  "hero": {
+    "eyebrow": "Carnic Alps · Friuli‑Venezia Giulia",
+    "sub": "\"Where hospitality is at home.\" A family mountain refuge among the high pastures, at 1552 metres above sea level.",
+    "scopri": "Discover more",
+    "contattaci": "Contact us",
+    "quota_label": "Altitude",
+    "stagione_label": "Season",
+    "stagione_val": "Friday – Sunday",
+    "stagione_note": "9:00 – 21:00 · closed from 28 Sept."
+  },
+  "services": {
+    "eyebrow": "01 / Experiences",
+    "title": "Three ways to experience the mountain.",
+    "desc": "One house, three intertwined traditions: milk from the pastures, family cooking, and nights under the wooden roof.",
+    "caseificio_title": "The authentic taste of the mountain.",
+    "caseificio_desc": "Alpine dairy cheeses aged in our wooden cellar.",
+    "caseificio_cta": "Visit the dairy",
+    "gastro_title": "Traditional Carnic cuisine.",
+    "gastro_desc": "Cjarsons, frico, polenta on the fire, local cured meats.",
+    "gastro_cta": "See the menu",
+    "rifugio_title": "Where simplicity meets comfort.",
+    "rifugio_desc": "Attic rooms in wood, fresh linen, windows open to the mountains.",
+    "rifugio_cta": "Book a night"
+  },
+  "about": {
+    "eyebrow": "02 / Our story",
+    "title": "A mountain refuge that feels like home.",
+    "lead": "For three generations we have cared for this refuge in the Carnic Alps.",
+    "body": "Cason di Lanza began as an alpine pasture and became a family refuge over the decades.",
+    "sign": "The Cason Family",
+    "stat_quota": "metres altitude",
+    "stat_gen": "generations",
+    "stat_rec": "reviews ★"
+  },
+  "hours": {
+    "label": "Opening hours · MMXXIV",
+    "closed": "Closed from 28 September.",
+    "when": "Friday — Sunday · 9:00 – 21:00 · Kitchen by reservation",
+    "cta": "Book a table"
+  },
+  "contact": {
+    "eyebrow": "04 / Contact",
+    "title": "Write to us, we await you in the mountains.",
+    "desc": "To book a table, a room, or simply to ask for information.",
+    "send": "Send message",
+    "reply": "Reply within 24h"
+  },
+  "newsletter": {
+    "eyebrow": "Letter from the refuge",
+    "title": "Subscribe for exclusive updates.",
+    "desc": "An email every two months, written by the family. No promotions, no noise.",
+    "btn": "Join",
+    "placeholder": "your@email.com"
+  },
+  "footer": {
+    "tagline": "Family refuge, artisan dairy and Carnic cuisine in the Carnic Alps.",
+    "esperienze": "Experiences",
+    "contatti": "Contact",
+    "seguici": "Follow us"
+  }
+}

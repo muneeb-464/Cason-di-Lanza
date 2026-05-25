@@ -1,11 +1,12 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import { useReveal } from '../../hooks/useReveal'
 import { images } from '../../assets'
 
 const channels = [
   {
     href: 'tel:+390428909329',
-    label: 'Telefono',
+    label: 'Phone',
     value: '+39 0428 909 329',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -36,7 +37,7 @@ const channels = [
   },
   {
     href: 'https://maps.google.com/?q=Cason+di+Lanza+Paularo',
-    label: 'Indirizzo',
+    label: 'Address',
     value: 'Sella di Lanza · Paularo (UD)',
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
@@ -49,21 +50,22 @@ const channels = [
 
 export default function ContactSection() {
   const [submitted, setSubmitted] = useState(false)
+  const { t } = useTranslation()
 
   return (
     <section className="contact" id="contatti">
       <div className="wrap">
         <div className="contact__top reveal" ref={useReveal()}>
           <div>
-            <div className="divider-num">— 04 / Contatti</div>
-            <h2>Scriveteci, vi <span className="italics">aspettiamo</span><br />tra i monti.</h2>
+            <div className="divider-num">— {t('contact.eyebrow')}</div>
+            <h2>{t('contact.title')}</h2>
           </div>
           <div>
-            <p>Per prenotare un tavolo, una camera, o semplicemente per chiedere informazioni — la famiglia risponde di persona, di solito entro la giornata.</p>
+            <p>{t('contact.desc')}</p>
             <div className="meta">
-              <span>Risposta entro 24h</span>
-              <span>Italiano · Deutsch · English</span>
-              <span>Nessuna prenotazione online</span>
+              <span>{t('contact.reply')}</span>
+              <span>Italian · German · English</span>
+              <span>No online booking required</span>
             </div>
           </div>
         </div>
@@ -72,12 +74,12 @@ export default function ContactSection() {
           <div className="contact__left reveal" ref={useReveal()} style={{ '--contact-bg': `url(${images.contact})` }}>
             <div className="corner-tag">
               <span>Cason di Lanza · Carnia</span>
-              <span className="live"><span className="dot" /> Aperti oggi</span>
+              <span className="live"><span className="dot" /> Open today</span>
             </div>
 
             <div className="contact__channels">
               <p className="contact__lead">
-                Quattro modi per raggiungerci. <span className="gold">Il telefono</span> è ancora il preferito di nonna.
+                Four ways to reach us. <span className="gold">The phone</span> is still grandma's favourite.
               </p>
 
               {channels.map(({ href, label, value, icon }) => (
@@ -116,16 +118,16 @@ export default function ContactSection() {
 
             <div className="form__head">
               <div>
-                <div className="divider-num" style={{ marginBottom: 6 }}>— Modulo prenotazione</div>
-                <h3>Scriveteci due righe.</h3>
-                <p className="sub">Tutti i campi sono opzionali tranne email. Vi rispondiamo entro 24 ore.</p>
+                <div className="divider-num" style={{ marginBottom: 6 }}>— Booking form</div>
+                <h3>Drop us a message.</h3>
+                <p className="sub">All fields optional except email. We reply within 24 hours.</p>
               </div>
-              <div className="step">Passo 1 / 2</div>
+              <div className="step">Step 1 / 2</div>
             </div>
 
             <div className="reasons">
-              <span className="label">Motivo della richiesta</span>
-              {['Una camera', 'Un tavolo', 'Caseificio', 'Gruppi & eventi', 'Altro'].map((r, i) => (
+              <span className="label">Reason for enquiry</span>
+              {['A room', 'A table', 'Dairy visit', 'Groups & events', 'Other'].map((r, i) => (
                 <label key={r} className="reason">
                   <input type="radio" name="motivo" value={r.toLowerCase()} defaultChecked={i === 0} />
                   <span className="ric" /><span>{r}</span>
@@ -136,11 +138,11 @@ export default function ContactSection() {
             <div className="fgrid">
               <div className="fld">
                 <input type="text" id="nome" placeholder=" " />
-                <label htmlFor="nome">Nome</label>
+                <label htmlFor="nome">First name</label>
               </div>
               <div className="fld">
                 <input type="text" id="cognome" placeholder=" " />
-                <label htmlFor="cognome">Cognome</label>
+                <label htmlFor="cognome">Last name</label>
               </div>
               <div className="fld fld--full">
                 <input type="email" id="email" placeholder=" " required />
@@ -148,33 +150,33 @@ export default function ContactSection() {
               </div>
               <div className="fld">
                 <input type="text" id="ospiti" placeholder=" " />
-                <label htmlFor="ospiti">Numero ospiti</label>
+                <label htmlFor="ospiti">Number of guests</label>
               </div>
               <div className="fld">
                 <input type="date" id="data" placeholder=" " />
-                <label htmlFor="data">Data desiderata</label>
+                <label htmlFor="data">Preferred date</label>
               </div>
               <div className="fld fld--full">
                 <textarea id="messaggio" placeholder=" " />
-                <label htmlFor="messaggio">Messaggio</label>
+                <label htmlFor="messaggio">Message</label>
               </div>
               <label className="fld--check">
                 <input type="checkbox" />
-                <span>Acconsento al trattamento dei dati per essere ricontattato. Nessuna pubblicità, parola di malga.</span>
+                <span>I consent to my data being used to be contacted. No marketing, refuge's word.</span>
               </label>
               <div className="fsubmit">
                 <span className="note">
-                  {submitted ? '✓ Grazie, la malga vi risponderà presto.' : 'Risposta entro 24h'}
+                  {submitted ? '✓' : t('contact.reply')}
                 </span>
                 <button type="submit" className="btn btn--gold">
-                  Invia il messaggio <span className="arrow">→</span>
+                  {t('contact.send')} <span className="arrow">→</span>
                 </button>
               </div>
             </div>
 
             <div className="form__ps">
               <span className="ps">P.S.</span>
-              <span>Se cercate un tavolo per la sera stessa, telefonate direttamente: l'email controllo il giorno dopo, quando i piatti sono lavati. <em>— Famiglia Cason</em></span>
+              <span>If you need a table for tonight, call directly — I check email the next day, once the dishes are done. <em>— The Cason Family</em></span>
             </div>
           </form>
         </div>

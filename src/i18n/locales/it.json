@@ -1,0 +1,74 @@
+{
+  "nav": {
+    "home": "Home",
+    "attivita": "Attività",
+    "reservations": "Reservations",
+    "prenota_camera": "Prenota una camera",
+    "nuova_pagina": "Nuova pagina",
+    "more": "More",
+    "contatti": "Contatti",
+    "piani": "Piani e prezzi",
+    "esperienze": "Esperienze",
+    "prenota_ora": "Prenota ora"
+  },
+  "hero": {
+    "eyebrow": "Alpi Carniche · Friuli‑Venezia Giulia",
+    "sub": "\"Dove accoglienza ed ospitalità sono di casa.\" Una malga di famiglia tra i pascoli alti, dal 1552 metri sul livello del mare.",
+    "scopri": "Scopri di più",
+    "contattaci": "Contattaci",
+    "quota_label": "Quota",
+    "stagione_label": "Stagione",
+    "stagione_val": "Venerdì – Domenica",
+    "stagione_note": "9:00 – 21:00 · chiuso dal 28 sett."
+  },
+  "services": {
+    "eyebrow": "01 / Esperienze",
+    "title": "Tre modi di vivere la montagna.",
+    "desc": "Una sola casa, tre tradizioni che si intrecciano: il latte dei pascoli, la cucina di famiglia, e le notti sotto il tetto in legno.",
+    "caseificio_title": "Il sapore autentico della montagna.",
+    "caseificio_desc": "Formaggi di malga stagionati nella nostra cantina di legno.",
+    "caseificio_cta": "Visita il caseificio",
+    "gastro_title": "Cucina della tradizione carnica.",
+    "gastro_desc": "Cjarsons, frico, polenta sul fuoco, salumi delle nostre vallate.",
+    "gastro_cta": "Guarda il menù",
+    "rifugio_title": "Dove semplicità e comfort si incontrano.",
+    "rifugio_desc": "Camere mansardate in legno, lenzuola fresche, finestre aperte sui monti.",
+    "rifugio_cta": "Prenota una notte"
+  },
+  "about": {
+    "eyebrow": "02 / La nostra storia",
+    "title": "Una malga che è una casa.",
+    "lead": "Da tre generazioni custodiamo questa malga tra le Alpi Carniche.",
+    "body": "Cason di Lanza nasce come pascolo d'alpeggio e si è trasformato in un rifugio di famiglia.",
+    "sign": "Famiglia Cason",
+    "stat_quota": "metri di quota",
+    "stat_gen": "generazioni",
+    "stat_rec": "recensioni ★"
+  },
+  "hours": {
+    "label": "Orari d'apertura · MMXXIV",
+    "closed": "Chiuso a partire dal 28 settembre.",
+    "when": "Venerdì — Domenica · 9:00 – 21:00 · Cucina su prenotazione",
+    "cta": "Prenota un tavolo"
+  },
+  "contact": {
+    "eyebrow": "04 / Contatti",
+    "title": "Scriveteci, vi aspettiamo tra i monti.",
+    "desc": "Per prenotare un tavolo, una camera, o semplicemente per chiedere informazioni.",
+    "send": "Invia il messaggio",
+    "reply": "Risposta entro 24h"
+  },
+  "newsletter": {
+    "eyebrow": "Lettera dalla malga",
+    "title": "Iscriviti per aggiornamenti esclusivi.",
+    "desc": "Una mail ogni due mesi, scritta dalla famiglia. Niente promozioni, niente rumore.",
+    "btn": "Unisciti",
+    "placeholder": "vostro@indirizzo.it"
+  },
+  "footer": {
+    "tagline": "Rifugio di famiglia, caseificio di malga e cucina carnica nelle Alpi Carniche.",
+    "esperienze": "Esperienze",
+    "contatti": "Contatti",
+    "seguici": "Seguici"
+  }
+}
